@@ -9,7 +9,7 @@ class movie
 
     public function descrizione()
     {
-        return "Il Film " . $this->titolo . " è uscito nelle sale cinema il " . $this->anno . " ed è un genere " . $this->genere;
+        return "Il Film " . $this->titolo . " è uscito nelle sale cinema nel " . $this->anno . " ed è un genere " . $this->genere;
     }
 
     public function __construct($titolo, $anno, $genere)
